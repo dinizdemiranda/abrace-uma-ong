@@ -1,0 +1,92 @@
+[
+    {
+        "id": "oq_aJy3NJi",
+        "name": "Instituto Pró-Saber",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQG_AWbcqTE5zg/company-logo_200_200/0/1557249651971?e=1615420800&v=beta&t=9nc5ZDLvVEnQR4hH4KFD2BQ68WYJAqdDh5xdt1C0EnQ",
+        "photo": "https://s2.glbimg.com/KCH_MELPfm9CSAwrvWg4IPzYZuk=/0x0:2000x1333/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/E/q/cAJ5sTSH2cW5Slyaus5g/ongexterno.jpg",
+        "location": "São Paulo-SP",
+        "description": "Atuamos há 16 anos em Paraisópolis, nosso sonho é diminuir a desigualdade por meio da educação.",
+        "founder": "Maria Cecilia Lins"
+    },
+    {
+        "id": "3JxV2vKqSI",
+        "name": "Meninos da Harmonia",
+        "logo": "https://www.acmh.creationdigital.com.br/wp-content/uploads/2020/07/logo-acmh.jpg",
+        "photo": "https://www.acmh.creationdigital.com.br/wp-content/uploads/2020/07/Apresenta%C3%A7%C3%B5es-4.jpg",
+        "location": "Curitiba-PR",
+        "description": "Somos uma instituição que fomenta a música e a cultura na vida de crianças e jovens, na região metropolitana de Curitiba/PR.",
+        "founder": "Johnny Liberatti,"
+    },
+    {
+        "id": "sDREBhws41",
+        "name": "ONG Vida Breve",
+        "logo": "https://www.vidabreve.org/wp-content/uploads/2020/06/logo_VidaBreve_43h.png",
+        "photo": "https://www.trt4.jus.br/portais/media-noticia/186569/23-VidaBreveAlunos.jpg",
+        "location": "Taquara-RS",
+        "description": "A ONG VIDA BREVE acolhe crianças e adolescentes com o propósito de auxiliar na construção de um futuro melhor, alterando trajetórias de vidas.",
+        "founder": "Airton Schirmer"
+    },
+    {
+        "id": "hdhgFnbZVv",
+        "name": "Plan International",
+        "logo": "https://cdn.plan.org.br/wp-content/uploads/2018/11/logo-plan-internacional.png",
+        "photo": "https://cdn.plan.org.br/wp-content/uploads/2019/04/201605-bra-71-scr.jpg",
+        "location": "São Luis-MA",
+        "description": "A Plan International Brasil desenvolve programas e projetos com o objetivo de capacitar e empoderar crianças, adolescentes e suas comunidades, para que adquiram competências e habilidades que os ajudem a transformar suas realidades.",
+        "founder": "Marta Ariandelli"
+    },
+    {
+        "id": "ARPepybz7J",
+        "name": "Gerando Falcões",
+        "logo": "https://static.tildacdn.com/tild3236-3936-4539-b834-346232343733/gerando-falcoes-logo.svg",
+        "photo": "https://ogimg.infoglobo.com.br/in/23281738-583-59d/FT1086A/652/_TUV4440.jpg",
+        "location": "Poá-SP",
+        "description": "Somos organização social que atua dentro de estratégia de rede, em periferias e favelas, focando em esporte e cultura para crianças e adolescentes e qualificação profissional para jovens e adultos.",
+        "founder": "Edu Lyra"
+    },
+    {
+        "id": "I-saDZLuyT",
+        "name": "Comunidade Jesus Menino",
+        "logo": "https://static.wixstatic.com/media/0b2de1_c979f07349674c22b32525cb1ed4cffd~mv2.png/v1/fill/w_128,h_120,al_c,q_85,usm_0.66_1.00_0.01/CCJM-Logo-Comemorativo-png4_edited.webp",
+        "photo": "https://static.wixstatic.com/media/0b2de1_52384a9ba42248838ae0c00151f35950~mv2.jpg/v1/fill/w_371,h_402,al_c,lg_1,q_80/0b2de1_52384a9ba42248838ae0c00151f35950~mv2.webp",
+        "location": "São Paulo-SP",
+        "description": "Estamos prontos para acolher aqueles que desejarem fazer conosco uma experiência de vida consagrada. Também contamos com a sua oração por novas vocações, pois a Missão é sublime!",
+        "founder": "Tonio Tavares"
+    },
+    {
+        "id": "Ilb0KX_B-g",
+        "name": "Anjos da Cidade",
+        "logo": "https://anjosdacidade.org/wp-content/uploads/2020/05/logoheader-1.png",
+        "photo": "https://anjosdacidade.org/wp-content/uploads/2020/06/Anjos-da-Cidade22.png",
+        "location": "São Paulo-SP",
+        "description": "O Anjos da Cidade é uma associação sem fins lucrativos que tem como real objetivo a reinserção da pessoa em situação de rua.",
+        "founder": "Andrea Pludwinski"
+    },
+    {
+        "id": "wKZ0Fp-VDT",
+        "name": "Novo Sertão",
+        "logo": "https://www.novosertao.org.br/wp-content/uploads/2020/05/logotipo-03.png",
+        "photo": "https://www.novosertao.org.br/wp-content/uploads/2020/07/fotos_geracaorenda_pagina_0000s_0001_horta-3_novo.jpg",
+        "location": "Betânia-PI",
+        "description": "Nossa missão é promover comunidades locais, famílias e indivíduos saudáveis com plena condição de usar seus dons e talentos para alcançar seus sonhos dentro de uma sociedade justa",
+        "founder": "José Carlos"
+    },
+    {
+        "id": "2d6n5eDKzI",
+        "name": "PetPE",
+        "logo": "https://www.procure1amigo.com.br/adm/upload/logo_ong1347.jpg",
+        "photo": "http://ongpetpe.tempsite.ws/wp-content/uploads/2017/03/20170312_035306000_iOS-672x372.jpg",
+        "location": "Recife-PE",
+        "description": "Cuidamos de animais abandonados e vítimas de maus tratos, prestando atendimento veterinário e encaminhando esses animais para um lar para que eles cresçam e vivam dignamente.",
+        "founder": "Mauricio Pessoa"
+    },
+    {
+        "id": "3aSVCTcRNd",
+        "name": "ONG Cirinho Sorrindo",
+        "logo": "https://scontent.fcgh7-1.fna.fbcdn.net/v/t31.0-8/13147414_1772175509683665_170497764684266724_o.png?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_ohc=IMtnlm08FQsAX-2Koob&_nc_ht=scontent.fcgh7-1.fna&oh=ff5e5bbeda47d8b42ee60f7660ff6dff&oe=5FF6E5DB",
+        "photo": "https://www.ongcirinhosorrindo.org.br/uploads/gallery/120/notice-detail_resize_1559138554.jpg",
+        "location": "Sorriso-MT",
+        "description": "Somos uma Instituição não governamental de caráter social, com o propósito de auxiliar pacientes acometidos com neoplasia maligna e seus familiares no combate ao câncer.",
+        "founder": "Jussara Peloso"
+    }
+]

@@ -1,0 +1,19 @@
+#product-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1140px;
+    margin: 0 auto;
+    column-gap: 40px;
+}
+
+#product-photos img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.preco {
+    background-color: rgb(195, 238, 195);
+    padding: 10px;
+    border-radius: 5px;
+}
