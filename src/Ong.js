@@ -38,7 +38,7 @@ const Ong = () => {
 
         
             
-            <img src={ongs.photo} alt="" srcset=""/>
+            <img src={ongs.photo} alt="" srcset="" className="hero-image"/>
 
             <div id="ong-body">
                 <div id="ong-header">

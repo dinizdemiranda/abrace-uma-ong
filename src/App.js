@@ -5,12 +5,14 @@ import Ong from './Ong'
 import Profile from './Profile'
 import './css/style.css'
 import Menu from './Menu'
+import DesktopHeader from './DesktopHeader'
 
 
 function App() {
   return (
       <BrowserRouter>
         <div id="page">
+          <DesktopHeader />
           <Routes>
             <Route path="/" element={<Feed />} />
             <Route path="ong/:id" element={<Ong />} />

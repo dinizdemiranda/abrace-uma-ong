@@ -3,9 +3,14 @@
     background: white;
     width: 100%;
     margin-top: 0;
-
     position: fixed;
 }
+
+@media only screen and (min-width: 779px) {
+    #section {
+      display: none;
+    }
+  }
 
 #inside-header {
     display: grid;
