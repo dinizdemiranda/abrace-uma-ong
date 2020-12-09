@@ -1,0 +1,24 @@
+#inside-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+    position: fixed;
+    background: white;
+    padding: 10px 15px;
+    padding-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #DCDCDC;
+    margin-top: 0;
+}
+
+#inside-header span {
+    font-size: 0.8em;
+}
+
+#inside-header button {
+    background: none;
+    border: none;
+}
