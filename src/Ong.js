@@ -49,7 +49,7 @@ const Ong = () => {
                                 <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
                             </svg>
                             <span>
-                                {ongs.score}
+                                <strong> {ongs.score}</strong> ({ongs.votes} avaliações)
                             </span>
                         </div>     
                     </div>
@@ -62,7 +62,7 @@ const Ong = () => {
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
-                        <p id="location">Atua em {ongs.location}</p>
+                        <p id="location">Atua em <strong>{ongs.location}</strong></p>
                 </div>
             </div>
         </div>

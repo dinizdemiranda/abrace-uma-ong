@@ -1,17 +1,24 @@
+#section {
+    border-bottom: 1px solid #DCDCDC;
+    background: white;
+    width: 100%;
+    margin-top: 0;
+
+    position: fixed;
+}
+
 #inside-header {
     display: grid;
     grid-template-columns: auto 1fr auto;
     text-align: center;
     box-sizing: border-box;
     align-items: center;
-    position: fixed;
-    background: white;
     padding: 10px 15px;
     padding-top: 20px;
     width: 100%;
     box-sizing: border-box;
-    border-bottom: 1px solid #DCDCDC;
-    margin-top: 0;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 #inside-header span {

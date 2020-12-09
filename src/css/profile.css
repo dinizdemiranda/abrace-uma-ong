@@ -16,6 +16,8 @@
 #profile-detail {
     padding: 20px;
     padding-top: 100px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 #profile-header {
