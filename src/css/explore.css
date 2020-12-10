@@ -1,0 +1,183 @@
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll; 
+}
+
+#explore-page {
+   
+    background: #f8f8f8;
+}
+
+@media only screen and (min-width: 780px) {
+    #explore-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-photo {
+        height: 150px;
+    }
+    #explore-map {
+    width: 50%;
+    height: 100vh;
+    }
+    #explore-ongs{
+        padding-top: 80px;
+        max-width: 580px;
+    }
+  }
+
+@media only screen and (max-width: 779px) {
+    #explore-filters {
+        text-align: center;
+        margin-top: 0 !important;
+        position: sticky;
+        position: -webkit-sticky;
+        top: -2px; /* required */ 
+        background: white;
+        border-bottom: 1px solid #ebebeb;
+        padding: 20px !important;
+    }
+    .card-photo {
+        height: auto !important;
+    }
+    #explore-map {
+    width: 100%;
+    height: 50vh;
+    z-index: 0;
+    }
+    #explore-ongs {
+        position: absolute;
+        z-index: 1;
+        background: white;
+        border-radius: 20px;
+        top: 50%;
+        width: 100%;
+        
+    }
+    #explore-list-ongs{
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+    .explore-card {
+        margin: 10px !important;
+    }
+  }
+
+#explore-map {
+    position: fixed;
+}
+
+
+
+#explore-ongs a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.explore-card {
+    background: white;
+    border-radius: 10px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    border: 1px solid #ebebeb; 
+}
+
+.card-info {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+
+.card-photo {
+    background-size: cover;
+    width: 100%;
+    height: 125px;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+.ong-name-map {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ong-name {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.explore-ong-location p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #333333;
+}
+
+.explore-ong-location svg {
+    color: #EA4E5C;
+    width: 20px;
+}
+
+.explore-ong-location {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 5px;
+        align-items: center;
+        
+}
+
+.explore-score {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-self: end;
+}
+
+.explore-score svg {
+    width: 12px;
+    margin-right: 5px;
+    color: #EA4E5C;
+    fill: #EA4E5C;
+}
+
+.explore-score span {
+    font-size: 0.8em;
+    color: #333333;
+  }
+
+#explore-filters {
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.ong-filter {
+    border: 1px solid #EA4E5C;
+    border-radius: 50px;
+    background: none;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+
+.ong-filter:focus {
+    outline: 0;
+}
+
+.ong-filter.active {
+    border: 2px solid #EA4E5C;
+    font-weight: bold;
+}
+
+.ong-filter:last-of-type {
+    margin-right: 0;
+}
+
+#explore-list-ongs {
+    background: #f8f8f8;
+}

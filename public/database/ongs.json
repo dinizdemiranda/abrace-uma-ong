@@ -3,12 +3,15 @@
         "id": "oq_aJy3NJi",
         "name": "Instituto Pró-Saber",
         "logo": "https://media-exp1.licdn.com/dms/image/C560BAQG_AWbcqTE5zg/company-logo_200_200/0/1557249651971?e=1615420800&v=beta&t=9nc5ZDLvVEnQR4hH4KFD2BQ68WYJAqdDh5xdt1C0EnQ",
-        "photo": "https://s2.glbimg.com/KCH_MELPfm9CSAwrvWg4IPzYZuk=/0x0:2000x1333/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/E/q/cAJ5sTSH2cW5Slyaus5g/ongexterno.jpg",
+        "photo": "https://razoesparaacreditar.com/wp-content/uploads/2016/04/educacao.jpg",
         "location": "São Paulo-SP",
         "description": "Atuamos há 16 anos em Paraisópolis, nosso sonho é diminuir a desigualdade por meio da educação.",
         "founder": "Maria Cecilia Lins",
         "score": "4.8",
-        "votes": 89
+        "votes": 89,
+        "category": "education",
+        "lat": "-23.6001798",
+        "lng": "-46.6790447"
     },
     {
         "id": "3JxV2vKqSI",
@@ -19,7 +22,10 @@
         "description": "Somos uma instituição que fomenta a música e a cultura na vida de crianças e jovens, na região metropolitana de Curitiba/PR.",
         "founder": "Johnny Liberatti,",
         "score": "5.0",
-        "votes": 412
+        "votes": 412,
+        "category": "culture",
+        "lat": "-25.5116181",
+        "lng": "-49.1897404"
     },
     {
         "id": "sDREBhws41",
@@ -30,7 +36,10 @@
         "description": "A ONG VIDA BREVE acolhe crianças e adolescentes com o propósito de auxiliar na construção de um futuro melhor, alterando trajetórias de vidas.",
         "founder": "Airton Schirmer",
         "score": "4.9",
-        "votes": 21
+        "votes": 21,
+        "category": "health",
+        "lat": "-29.6556237",
+        "lng": "-50.8090674"
     },
     {
         "id": "hdhgFnbZVv",
@@ -41,7 +50,10 @@
         "description": "A Plan International Brasil desenvolve programas e projetos com o objetivo de capacitar e empoderar crianças, adolescentes e suas comunidades, para que adquiram competências e habilidades que os ajudem a transformar suas realidades.",
         "founder": "Marta Ariandelli",
         "score": "4.5",
-        "votes": 16
+        "votes": 16,
+        "category": "social",
+        "lat": "-2.5606303",
+        "lng": "-44.3281623"
     },
     {
         "id": "ARPepybz7J",
@@ -52,7 +64,10 @@
         "description": "Somos organização social que atua dentro de estratégia de rede, em periferias e favelas, focando em esporte e cultura para crianças e adolescentes e qualificação profissional para jovens e adultos.",
         "founder": "Edu Lyra",
         "score": "4.8",
-        "votes": 198
+        "votes": 198,
+        "category": "education",
+        "lat": "-23.5391775",
+        "lng": "-46.3815517"
     },
     {
         "id": "I-saDZLuyT",
@@ -63,7 +78,10 @@
         "description": "Estamos prontos para acolher aqueles que desejarem fazer conosco uma experiência de vida consagrada. Também contamos com a sua oração por novas vocações, pois a Missão é sublime!",
         "founder": "Tonio Tavares",
         "score": "4.7",
-        "votes": 54
+        "votes": 54,
+        "category": "social",
+        "lat": "-23.5391109",
+        "lng": "-46.486617"
     },
     {
         "id": "Ilb0KX_B-g",
@@ -74,7 +92,10 @@
         "description": "O Anjos da Cidade é uma associação sem fins lucrativos que tem como real objetivo a reinserção da pessoa em situação de rua.",
         "founder": "Andrea Pludwinski",
         "score": "4.3",
-        "votes": 61
+        "votes": 61,
+        "category": "social",
+        "lat": "-23.5389855",
+        "lng": "-46.4866174"
     },
     {
         "id": "wKZ0Fp-VDT",
@@ -85,18 +106,24 @@
         "description": "Nossa missão é promover comunidades locais, famílias e indivíduos saudáveis com plena condição de usar seus dons e talentos para alcançar seus sonhos dentro de uma sociedade justa",
         "founder": "José Carlos",
         "score": "5.0",
-        "votes": 16
+        "votes": 16,
+        "category": "health",
+        "lat": "-8.1335729",
+        "lng": "-40.8427398"
     },
     {
         "id": "2d6n5eDKzI",
         "name": "PetPE",
         "logo": "https://www.procure1amigo.com.br/adm/upload/logo_ong1347.jpg",
-        "photo": "https://www.opovo.com.br/noticiasimages/app/noticia_146418291334/2017/10/11/321109/cachorro-adotado.jpg",
+        "photo": "http://ongpetpe.tempsite.ws/wp-content/uploads/2017/03/20170312_035306000_iOS-672x372.jpg",
         "location": "Recife-PE",
         "description": "Cuidamos de animais abandonados e vítimas de maus tratos, prestando atendimento veterinário e encaminhando esses animais para um lar para que eles cresçam e vivam dignamente.",
         "founder": "Mauricio Pessoa",
         "score": "4.6",
-        "votes": 204
+        "votes": 204,
+        "category": "animal",
+        "lat": "-8.1417496",
+        "lng": "-34.9093189"
     },
     {
         "id": "3aSVCTcRNd",
@@ -107,7 +134,10 @@
         "description": "Somos uma Instituição não governamental de caráter social, com o propósito de auxiliar pacientes acometidos com neoplasia maligna e seus familiares no combate ao câncer.",
         "founder": "Jussara Peloso",
         "score": "4.8",
-        "votes": 72
+        "votes": 72,
+        "category": "health",
+        "lat": "-12.5504961",
+        "lng": "-55.7279973"
     },
     {
         "id": "aKt0FTcRma",
@@ -118,17 +148,23 @@
         "description": "Nossa missão é melhorar a qualidade de vida de pessoas em situação de vulnerabilidade social, combatendo a fome, resgatando a dignidade humana e oferecendo um atendimento individualizado e qualificado.",
         "founder": "Rabino Berel",
         "score": "4.6",
-        "votes": 105
+        "votes": 105,
+        "category": "social",
+        "lat": "-23.5269471",
+        "lng": "-46.6386234"
     },
     {
         "id": "lmcr3nknEB",
         "name": "Ong Alfa",
         "logo": "https://projetoalfa.org.br/wp-content/uploads/2018/04/logo.png",
-        "photo": "https://projetoalfa.org.br/wp-content/uploads/2018/08/Quem-Somos-1-1024x683.jpg",
+        "photo": "https://conteudo.imguol.com.br/c/noticias/b5/2017/06/27/aula-da-ong-bem-gasto-que-ensina-sobre-educacao-financeira-1498598569618_960x720.jpg",
         "location": "Rio de Janeiro-RJ",
         "description": "Prestar à sociedade o serviço de educação, através de reforço escolar, bolsas escolares, de cursos e universitárias. À educação é um dos principais pilares de sustentação de uma sociedade.",
         "founder": "Chirlen Vieira",
         "score": "4.9",
-        "votes": 89
+        "votes": 89,
+        "category": "education",
+        "lat": "-22.988421",
+        "lng": "-43.4374823"
     }
 ]

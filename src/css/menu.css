@@ -3,7 +3,8 @@
     bottom: 0;
     width: 100%;
     background: white;
-    border-top: 1px solid #DCDCDC;
+    border-top: 1px solid #ebebeb;
+    z-index: 100;
 }
 
 @media only screen and (min-width: 779px) {
@@ -36,12 +37,12 @@
 svg {
     color: #333333;
     width: 24px;
-    stroke-width: 1;
+    strokeWidth: 1;
 }
 
 .active svg {
     color: #EA4E5C;
-    stroke-width: 2 !important;
+    strokeWidth: 2 !important;
 }
 
 .active p {

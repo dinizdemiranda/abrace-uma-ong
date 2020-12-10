@@ -44,7 +44,7 @@
 
 #about-text svg {
     color: #EBEBEB !important;
-    fill: #DCDCDC;
+    fill: #ebebeb;
     margin: 0;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .spacer {
-    background: #DCDCDC;
+    background: #ebebeb;
     height: 6px;
     width: 30px;
     content: '';

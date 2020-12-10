@@ -2,9 +2,27 @@
     width: 100%;
     background: #f8f8f8;
     max-height: 50px;
-    border-bottom: 1px solid #DCDCDC;
+    border-bottom: 1px solid #ebebeb;
   padding-top: 20px;
   padding-bottom: 15px;
+  position: fixed;
+  z-index: 1;
+}
+
+#desktop-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#desktop-menu a:not(:last-of-type) {
+  text-decoration: none;
+  color: #333333;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 5px;
 }
 
 @media only screen and (max-width: 779px) {

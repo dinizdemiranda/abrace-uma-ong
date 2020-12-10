@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.178" height="33" viewBox="0 0 24.178 33">
+  <g id="location" transform="translate(504.5 -614.5)">
+    <g id="maps" transform="translate(-504 615)">
+      <g id="Grupo_7" data-name="Grupo 7" transform="translate(0)">
+        <path id="Caminho_12" data-name="Caminho 12" d="M82.162,0A11.6,11.6,0,0,0,70.573,11.589c0,7.931,10.371,19.573,10.813,20.065a1.044,1.044,0,0,0,1.553,0c.442-.492,10.813-12.134,10.813-20.065A11.6,11.6,0,0,0,82.162,0Zm0,17.42a5.831,5.831,0,1,1,5.831-5.831A5.837,5.837,0,0,1,82.162,17.42Z" transform="translate(-70.573)" fill="#ea4d5c" stroke="#fff" stroke-width="1"/>
+      </g>
+    </g>
+    <circle id="Elipse_1" data-name="Elipse 1" cx="6.5" cy="6.5" r="6.5" transform="translate(-499 620.333)" fill="#fff"/>
+  </g>
+</svg>

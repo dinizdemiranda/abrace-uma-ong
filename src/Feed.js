@@ -3,6 +3,7 @@ import React from 'react';
 import './css/feed.css';
 import { Link } from 'react-router-dom'
 
+
 const Feed = () => {
 
     const [ongs, setOngs] = React.useState(null);
@@ -49,7 +50,7 @@ const Feed = () => {
         
         <div id="feed" className="grid">
             { ongs && (ongs.map((ong)=> (
-               <div className="grid-item">
+               <div className="grid-item" key={ong.id}>
                    <Link to={'ong/'+ong.id}>
                    <img src={ong.photo} alt="" />
                    </Link>
