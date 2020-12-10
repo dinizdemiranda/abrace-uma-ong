@@ -155,7 +155,7 @@ html {
     margin-top: 20px;
 }
 
-.ong-filter {
+#explore-filters button {
     border: 1px solid #EA4E5C;
     border-radius: 50px;
     background: none;
@@ -163,18 +163,27 @@ html {
     font-family: 'Montserrat', sans-serif;
     margin-right: 10px;
     font-size: 0.8em;
+    box-sizing: border-box;
 }
 
-.ong-filter:focus {
+#explore-filters button:focus {
     outline: 0;
 }
 
-.ong-filter.active {
-    border: 2px solid #EA4E5C;
-    font-weight: bold;
+#explore-filters button.active {
+    border: 1px solid #EA4E5C;
+    font-weight: normal;
+    box-sizing: border-box;
 }
 
-.ong-filter:last-of-type {
+#explore-filters button.inactive {
+    border: 1px solid grey;
+    color: grey;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+#explore-filters button:last-of-type {
     margin-right: 0;
 }
 

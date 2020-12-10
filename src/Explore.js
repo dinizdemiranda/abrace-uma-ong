@@ -49,10 +49,10 @@ const Explore = () => {
             </div>
             <div id="explore-ongs">
                 <div id="explore-filters">
-                    <button onClick={filterAll} className={filter === 'all' ? 'ong-filter active' : 'ong-filter'}>Tudo</button>
-                    <button onClick={filterEducation} className={filter === 'education' ? 'ong-filter active' : 'ong-filter'}>Educação</button>
-                    <button onClick={filterHealth} className={filter === 'health' ? 'ong-filter active' : 'ong-filter'}>Saúde</button>
-                    <button onClick={filterSocial} className={filter === 'social' ? 'ong-filter active' : 'ong-filter'}>Social</button>
+                    <button onClick={filterAll} className={filter === 'all' ? 'active' : 'inactive'}>Tudo</button>
+                    <button onClick={filterEducation} className={filter === 'education' || filter === 'all' ? 'active' : 'inactive'}>Educação</button>
+                    <button onClick={filterHealth} className={filter === 'health' || filter === 'all' ? 'active' : 'inactive'}>Saúde</button>
+                    <button onClick={filterSocial} className={filter === 'social' || filter === 'all' ? 'active' : 'inactive'}>Social</button>
                 </div>
                 <div id="explore-list-ongs">
                 { ongs.map((ong) => (
