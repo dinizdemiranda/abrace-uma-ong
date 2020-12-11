@@ -15,9 +15,31 @@
 
 #profile-detail {
     padding: 20px;
-    padding-top: 100px;
-    max-width: 1140px;
+    max-width: 855px;
     margin: 0 auto;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+#profile-detail h3 {
+    font-size: 1.25em;
+}
+
+@media only screen and (max-width: 779px) {
+    #profile-detail{
+    margin-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    #profile-detail{
+
+    margin-top: 120px !important;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    }
 }
 
 #profile-header {
@@ -36,8 +58,13 @@
     font-size: 0.7500em;
 }
 
+#profile-about {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
 #about-text p {
-    font-size: 0.7500em;
+    font-size: 0.875em;
     line-height: 2;
     margin-top: 5px;
 }
@@ -56,7 +83,7 @@
 }
 
 #profile-location p, #profile-coins p {
-    font-size: 0.7500em;
+    font-size: 0.875em;
 }
 
 #profile-location svg, #profile-coins svg {

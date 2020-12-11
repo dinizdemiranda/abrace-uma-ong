@@ -190,3 +190,27 @@ html {
 #explore-list-ongs {
     background: #f8f8f8;
 }
+
+.card-map {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 20px;
+}
+
+.card-map p, .card-map span {
+    font-size: 0.875em;
+}
+.card-map svg {
+    color: #EA4E5C;
+}
+
+.card-map-location, .card-map-score {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.card-map-score svg {
+    fill: #EA4E5C;
+    height: 20px;
+}

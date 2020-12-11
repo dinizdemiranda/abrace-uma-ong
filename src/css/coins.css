@@ -1,5 +1,5 @@
 #coins-page {
-    background: white;
+    
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -12,7 +12,7 @@
 
 @media only screen and (max-width: 779px) {
     #coins-page {
-        padding-top: 40px;
+        padding-top: 25px;
         padding-bottom: 65px;
     }
     #coins-desktop{
@@ -27,6 +27,14 @@
         background: none;
     }
 
+    #dashboard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+        align-items: center;
+        grid-auto-rows: 1fr;
+    }
+
     #coins-mobile {
         display: none;
     }
@@ -37,16 +45,13 @@
 }
 
 #coins-panel {
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 10px;
-    color: white;
-    box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
+    align-items: center;
+    column-gap: 30px;
+    height: 100%;
+    grid-auto-rows: 1fr;
 }
 
 #coins-panel h1 {
@@ -59,14 +64,11 @@
     font-size: 0.7500em;
 }
 
-#panel-left {
-    background: #EA4E5C;
-    padding: 10px 20px;
-}
-
-#panel-right {
-    background: #86CDD9;
-    padding: 10px 20px;
+#panel-left, #panel-right {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid #ebebeb;
 }
 
 #coins-panel-buttons {
@@ -90,7 +92,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    background: white;
 }
 
 #coins-tabs h4 {
@@ -107,7 +108,12 @@
     display: grid;
     grid-template-columns: 1fr auto;
     margin: 15px 5px;
+    margin-top: 25px;
     align-items: center;
+}
+
+.panel-list-title div {
+    text-align: right;
 }
 
 .panel-list-title h4 {
@@ -117,3 +123,90 @@
 .li-middle {
     text-align: center;
 }
+
+#balance-panel {
+    background: white;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+#balance-panel button svg {
+    fill: white;
+}
+
+#balance-panel button {
+    background: #EA4E5C;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.275em;
+    color: white;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+@media only screen and (min-width: 780px) {
+    #balance-total, #balance-cta {
+        padding: 20px 40px;
+    }
+    
+    #balance-total h1 {
+        font-size: 3em;
+        margin: 0;
+    }
+    
+    #balance-total p {
+        font-size: 0.75em;
+        margin: 0;
+    }
+    
+  }
+
+  @media only screen and (max-width: 779px) {
+    #balance-panel button {
+        font-size: 1em !important;
+        padding: 5px 10px !important;
+    }
+
+    #balance-total, #balance-cta {
+        padding: 10px 20px;
+    }
+    
+    #balance-total h1 {
+        font-size: 2.5dem;
+        margin: 0;
+    }
+
+    #coins-panel h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+    
+    #balance-total p {
+        font-size: 0.75em;
+        margin: 0;
+    }
+    #coins-panel {
+        column-gap: 10px !important;
+    }
+
+    #dashboard {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 10px;
+    }
+  }
+
+  #coins-mobile {
+      margin-top: 30px;
+  }

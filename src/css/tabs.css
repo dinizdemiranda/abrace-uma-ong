@@ -25,6 +25,11 @@
     border-radius: 5px 5px 0 0;
     border-bottom: 2px solid #EA4E5C;
   }
+
+  .react-tabs__tab--selected p {
+    color: black;
+    font-weight: 600;
+  }
   
   .react-tabs__tab--disabled {
     color: grey;
@@ -44,7 +49,6 @@
     left: -4px;
     right: -4px;
     bottom: -5px;
-    background: #fff;
   }
   
   .react-tabs__tab-panel {
