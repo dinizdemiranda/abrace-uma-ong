@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import InsideHeader from './InsideHeader'
 import './css/ong.css'
+import Loading from './components/Loading'
 
 const Ong = () => {
     const [ongs, setOngs] = React.useState(null);
@@ -27,7 +28,7 @@ const Ong = () => {
          fetchOng('../database/ongs.json')
         }, [id]);
 
-        if(loading) return <div>Carregando...</div>
+        if(loading) return <div><Loading /></div>
         if(ongs === null) return null
         if(error) return <p>{error}</p>
     return (

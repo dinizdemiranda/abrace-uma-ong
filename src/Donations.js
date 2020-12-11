@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/donations.css'
 import DonationLi from './components/DonationLi'
+import Loading from './components/Loading'
 
 
 const Donations = ({limit}) => {
@@ -26,7 +27,7 @@ const Donations = ({limit}) => {
         }, []);
 
 
-        if(loading) return <div>Carregando...</div>
+        if(loading) return <div><Loading /></div>
         if(donations === null) return null
         if(error) return <p>{error}</p>
     return (

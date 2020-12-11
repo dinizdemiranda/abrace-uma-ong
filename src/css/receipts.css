@@ -10,16 +10,15 @@
     color: white;
     border: none;
     background: #EA4E5C;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    column-gap: 5px;;
+    display: inline-flex;
+  align-items: center; 
 }
 
 
 .panel-button svg {
     width: 20px;
     fill: white;
+    margin-right: 5px;
 }
 
 #receipts-board {

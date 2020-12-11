@@ -2,6 +2,7 @@ import React from 'react'
 import Mapa from './Mapa'
 import ExploreCard from './ExploreCard'
 import './css/explore.css'
+import Loading from './components/Loading'
 
 const Explore = () => {
     const [ongs, setOngs] = React.useState(null);
@@ -36,7 +37,7 @@ const Explore = () => {
         }, []);
 
 
-        if(loading) return <div>Carregando...</div>
+        if(loading) return <div><Loading /></div>
         if(ongs === null) return null
         if(error) return <p>{error}</p>
     return (

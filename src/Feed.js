@@ -2,6 +2,7 @@
 import React from 'react';
 import './css/feed.css';
 import { Link } from 'react-router-dom'
+import Loading from './components/Loading'
 
 
 const Feed = () => {
@@ -29,7 +30,7 @@ const Feed = () => {
 
 
     
-        if(loading) return <div>Carregando...</div>
+        if(loading) return <div><Loading /></div>
         if(ongs === null) return null
         if(error) return <p>{error}</p>
     return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/receipts.css'
 import ReceiptLi from './components/ReceiptLi'
+import Loading from './components/Loading'
 
 const Receipts = ({limit}) => {
     const [receipts, setReceipts] = React.useState(null);
@@ -25,7 +26,7 @@ const Receipts = ({limit}) => {
         }, []);
 
 
-        if(loading) return <div>Carregando...</div>
+        if(loading) return <div><Loading /></div>
         if(receipts === null) return null
         if(error) return <p>{error}</p>
     return (

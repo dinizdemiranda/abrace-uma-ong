@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import InsideHeader from './InsideHeader'
 import './css/profile.css'
+import Loading from './components/Loading'
 
 const Profile = () => {
     const [profile, setProfile] = React.useState(null);
@@ -36,7 +37,7 @@ const Profile = () => {
             return `${monthNames[diaFull.getMonth()]} ${diaFull.getFullYear()}`
         }
 
-        if(loading) return <div>Carregando...</div>
+        if(loading) return <div><Loading /></div>
         if(profile === null) return null
         if(error) return <p>{error}</p>
 

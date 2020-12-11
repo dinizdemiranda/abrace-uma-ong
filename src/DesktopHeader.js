@@ -27,7 +27,7 @@ const DesktopHeader = () => {
         }, []);
 
 
-        if(loading) return <div>Carregando...</div>
+        if(loading) return <div></div>
         if(profile === null) return null
         if(error) return <p>{error}</p>
 
