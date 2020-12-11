@@ -113,7 +113,7 @@
 }
 
 .panel-list-title div {
-    text-align: right;
+    text-align: right !important;
 }
 
 .panel-list-title h4 {

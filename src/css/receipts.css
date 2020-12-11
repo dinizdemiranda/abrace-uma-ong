@@ -13,8 +13,7 @@
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    column-gap: 5px;
-    white-space: nowrap;
+    column-gap: 5px;;
 }
 
 
