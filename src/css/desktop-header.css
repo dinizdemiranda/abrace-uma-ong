@@ -1,12 +1,13 @@
 #full-header {
     width: 100%;
-    background: #f8f8f8;
+    background: white;
     max-height: 50px;
     border-bottom: 1px solid #ebebeb;
   padding-top: 20px;
   padding-bottom: 15px;
   position: fixed;
   z-index: 1;
+  top: 0;
 }
 
 #desktop-menu {

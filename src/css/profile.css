@@ -33,11 +33,11 @@
 }
 
 #profile-header span {
-    font-size: 0.8em;
+    font-size: 0.7500em;
 }
 
 #about-text p {
-    font-size: 0.8em;
+    font-size: 0.7500em;
     line-height: 2;
     margin-top: 5px;
 }
@@ -56,7 +56,7 @@
 }
 
 #profile-location p, #profile-coins p {
-    font-size: 0.8em;
+    font-size: 0.7500em;
 }
 
 #profile-location svg, #profile-coins svg {

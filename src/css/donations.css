@@ -1,0 +1,22 @@
+#list-item-dn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #ebebeb;
+    padding: 20px 15px;
+    column-gap: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+#list-item-dn h5 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+}
+
+#list-item-dn p {
+    font-size: 0.7500em;
+    margin-top: 3px !important;
+    color: grey;
+    margin: 0;
+}

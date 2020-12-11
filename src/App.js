@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from 'react'
 import Feed from './Feed'
+import Coins from './Coins'
 import Ong from './Ong'
 import Explore from './Explore'
 import Profile from './Profile'
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Feed />} />
             <Route path="ong/:id" element={<Ong />} />
             <Route path="explore" element={<Explore />} />
+            <Route path="coins" element={<Coins />} />
             <Route path="profile/:id" element={<Profile />} />
           </Routes>
         </div>

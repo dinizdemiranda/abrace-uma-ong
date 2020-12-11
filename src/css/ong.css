@@ -28,7 +28,7 @@
 }
 
 #ong-header span {
-    font-size: 0.8em;
+    font-size: 0.7500em;
 }
 
 #ong-name {
@@ -41,7 +41,7 @@
 
 #ong-body p {
     line-height: 2;
-    font-size: 0.8em;
+    font-size: 0.7500em;
 }
 
 .hero-image {
@@ -67,7 +67,7 @@
 }
 
 #ong-location p {
-    font-size: 0.8em;
+    font-size: 0.7500em;
 }
 
 #ong-location svg {

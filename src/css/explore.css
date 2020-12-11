@@ -114,7 +114,7 @@ html {
 
 .explore-ong-location p {
     margin: 0;
-    font-size: 0.8em;
+    font-size: 0.7500em;
     color: #333333;
 }
 
@@ -146,7 +146,7 @@ html {
 }
 
 .explore-score span {
-    font-size: 0.8em;
+    font-size: 0.7500em;
     color: #333333;
   }
 
@@ -162,7 +162,7 @@ html {
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
     margin-right: 10px;
-    font-size: 0.8em;
+    font-size: 0.7500em;
     box-sizing: border-box;
 }
 
